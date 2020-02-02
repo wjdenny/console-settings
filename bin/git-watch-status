@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git config color.status always
+watch --no-title --color --interval 0.5 "git status --short | grep --extended-regexp --only-matching \"^(([[:cntrl:]]\[[0-9;]{,4}m)*[[:print:]]){,\$COLUMNS}\""
