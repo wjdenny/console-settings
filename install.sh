@@ -19,3 +19,6 @@ fi
 
 ln -s ~/.settings/vimrc ~/.vimrc && echo "vimrc linked successfully"
 ln -s ~/.settings/vim ~/.vim && echo "vim directory linked successfully"
+
+# link ~/.ledgerrc to this repository
+ln -s ~/.settings/ledggerc ~/.ledgerrc && echo "ledgerrc linked successfully"
