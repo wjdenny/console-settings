@@ -11,3 +11,6 @@ export NVM_DIR="$HOME/.nvm"
 # export NODE_PATH of current node version
 export NODE_PATH=$(npm root --global)
 
+# editor
+export FCEDIT=vim
+export EDITOR=vim
