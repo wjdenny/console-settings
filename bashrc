@@ -14,3 +14,7 @@ export NODE_PATH=$(npm root --global)
 # editor
 export FCEDIT=vim
 export EDITOR=vim
+
+# aliases
+alias ls="ls -l --human-readable --almost-all --color=auto --no-group --time-style=long-iso --sort=time --reverse"
+alias  l="ls -l --human-readable --almost-all --color=auto --no-group --time-style=long-iso --sort=time --reverse"
