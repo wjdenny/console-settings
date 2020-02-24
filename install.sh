@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # update all git submodles
-git submodule foreach git pull
+(cache-ssh-passphrase.sh && git submodule foreach git pull)
 
 # add hook to ~/.bashrc
 if ! grep --fixed-strings --quiet --file bashrc.hook ~/.bashrc; then
